@@ -1,4 +1,4 @@
-package main
+package ansi
 
 const (
 	noColor = "\033[0m"
@@ -118,8 +118,4 @@ func White(str string) string {
 	var r = white + str + noColor
 
 	return r
-}
-
-func main() {
-
 }
